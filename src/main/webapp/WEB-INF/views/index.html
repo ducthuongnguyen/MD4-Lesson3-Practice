@@ -10,9 +10,9 @@
     </a>
 </p>
 <div class="notify">
-    <div th:if="${success}">
+    <th:block th:if="${success}">
         <span th:text="${success}"></span>
-    </div>
+    </th:block>
 </div>
 <table id = "customers">
     <thead>
